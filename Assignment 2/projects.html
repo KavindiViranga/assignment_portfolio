@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Vedant Patel</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffccbc;
+    }
+
+    /* Navigation Bar Styles */
+    header {
+      background-color: #323232;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .portfolio-title {
+      font-size: 48px;
+      font-weight: 900;
+      margin: 0;
+      text-align: center;
+      letter-spacing: 2px;
+      color: #323232;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #323232;
+      font-weight: 500;
+      font-size: 16px;
+      transition: color 0.3s;
+      padding: 5px 10px;
+    }
+
+    .navbar a:hover {
+      color: #ffccbc;
+      background-color: #323232;
+      border-radius: 5px;
+    }
+
+    .contact-button {
+      font-weight: 600;
+      color: #323232;
+      background-color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    /* Projects Section */
+    #projects {
+      padding: 50px 20px;
+      background-color: #f7f7f7;
+      text-align: center;
+      margin-top: 70px; /* Adjust space between navbar and projects */
+    }
+
+    /* Project Header (Title and Image) */
+    .project-header {
+      background-color: #323232;
+      padding: 50px 0;
+      color: white;
+      text-align: center;
+    }
+
+    .project-header h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .project-header img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+
+    /* Project Cards */
+    .project-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      padding: 20px;
+      width: 300px;
+      display: inline-block;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .project-card h3 {
+      font-size: 1.6rem;
+      color: #333;
+      margin: 15px 0;
+    }
+
+    .project-card p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .project-card a {
+      color: #ff6f61;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .project-card a:hover {
+      color: #e23b2a;
+    }
+
+    /* Hover Effect for Cards */
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Footer Styles */
+    footer {
+    background: #010000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  </style>
+</head>
+<body>
+  <div class="portfolio-title">Portfolio</div>
+
+  <!-- Header Section -->
+  <header>
+    <div class="navbar">
+      <a href="HomePage.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html" class="contact-button">Contact</a>
+    </div>
+  </header>
+
+  <!-- Projects Header Section (Title and Image) -->
+  <section class="project-header">
+    <h1>My Projects</h1>
+    <img src="images.jfif" alt="Projects Header Image">
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="project-card">
+      <img src="weste-wiz.jfif" alt="Project 1">
+      <h3>West-Wiz</h3>
+      <p>Managing waste in classrooms is important for keeping the space clean and teaching students
+        about being environmentally responsible. Classrooms produce different types of waste like
+        paper, plastic, and food scraps.</p>
+      <a href="https://www.canva.com/design/DAGYIGvYoCc/niSqflzd9qFhmqzyMCUcIw/edit?utm_content=DAGYIGvYoCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="health.jfif" alt="Health & Wellness Website">
+      <h3>Project Two</h3>
+      <p>A health and wellness website provides resources on fitness, nutrition, and self-care to help individuals improve their well-being..</p>
+      <a href="https://example.com/project2" target="_blank">View Project</a>
+    </div>
+
+    <!-- Add more project cards as needed -->
+
+  </section>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <table border ="0" style="background-color:black;"width="100%">
+      <th>
+          <a href="https://wa.me/0785705497" target="_blank">
+              <img src="wa.jpg" alt="Contact me on WhatsApp" style="width:45px;height:45px;">
+          </a>
+          <a href="https://www.instagram.com/_chathu_11era_/" target="_blank">
+              <img src="insta.jpg" alt="Follow me on Instagram" style="width:35px;height:35px;">
+          </a>
+          <a href="https://www.facebook.com/chathumieranga" target="_blank">
+              <img src="fb.jpg" alt="Follow me on Facebook" style="width:45px;height:45px;">
+          </a>
+          <a href="mailto:chathuera23@gmail.com">
+              <img src="mail.jpg" alt="Email me" style="width:45px;height:45px;">
+          </a>
+      
+      </th>
+  </table></div>
+  <br><br><br>
+  <footer>
+    <p>&copy; 2024 THMCE</p>
+</footer>
+  
+</body>
+</html>
